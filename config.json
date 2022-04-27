@@ -1,6 +1,6 @@
 {
     "EmbedColor": "#FF7A5D",
-    "token": "OTY0NjQ2NjE5ODkzMTA0Njcw.YlnrLA.6L2RzAuBdC_fdl-t4e3nOZKCcTY",
+    "token": "OTY0NjQ2NjE5ODkzMTA0Njcw.YlnrLA.wl8eEqG5gglys4gbDdlLt4h5p2E",
     "prefix": ".",
      "devs": ["884070608181297172", "798675881819111424", "840213882147831879"],
     "mongooseConnectionString": "mongodb+srv://karim:6BRniTSRa8mHIgwT@karims.qauys.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
