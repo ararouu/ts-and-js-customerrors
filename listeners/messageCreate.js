@@ -12,16 +12,7 @@ client.on("messageCreate", async (message) => {
         return;
     
     const beanreactSchema = require('../models/beanreactSchema');
-    const beanreactData = await beanreactSchema.findOne({
-            guildID: message.guild.id,
-            userID: message.author.id
-        
-        })
-        if(beanreactData) {
-            message.react("🌱")
-            beanreactData.delete()
-        }
-   
+    
             const blacklistSchema = require('../models/blacklistSchema');
 
 
