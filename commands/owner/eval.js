@@ -16,6 +16,7 @@ module.exports = {
      * @param {String[]} args
      */
      execute: async (client, message, args) => {
+    if(!args[0]) return message.reply("Specify a code!");
      const channel = message.channel     
          if(!client.config.devs.includes(message.author.id)) return message.delete()
   const output = await eval(args[0]);
