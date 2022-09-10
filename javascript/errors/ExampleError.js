@@ -1,6 +1,7 @@
 export const ExampleError = class extends Error {
-  constructor(name, message) {
-    super(name, message);
+  constructor(message) {
+    super(message);
+    //uwu
     this.name = "ExampleError";
     this.message = message;
     }
