@@ -1,4 +1,4 @@
-export const CustomError = class extends Error {
+export const ExampleError = class extends Error {
   message: string;
 
   constructor(message: string) {
