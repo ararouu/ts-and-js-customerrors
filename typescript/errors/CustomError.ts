@@ -3,7 +3,7 @@ export const CustomError = class extends Error {
   message: string;
   constructor(name: string, message: string) {
     super(name, message);
-    this.name = name;
-    this.message = message;
+    this.name = name; //You can also set the name as anything if you remove name: strong and make this.name = "ErrorName".
+    this.message = message; //Defines the message to display when an error is thrown.
     }
   }
