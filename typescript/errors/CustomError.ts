@@ -4,6 +4,6 @@ export const CustomError = class extends Error {
   constructor(name: string, message: string) {
     super(name, message);
     this.name = name; //You can also set the name as anything if you remove name: strong and make this.name = "ErrorName".
-    this.message = message; //Defines the message to display when an error is thrown.
+    this.message = message; //Displays the message to when an error is thrown.
     }
   }
